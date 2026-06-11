@@ -1,0 +1,10 @@
+# Secrets and local state — never commit these
+.env
+credentials.json
+token.json
+*token*.json
+gmail_db/
+index.log
+venv/
+__pycache__/
+.DS_Store
