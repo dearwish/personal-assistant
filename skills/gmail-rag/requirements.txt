@@ -1,0 +1,9 @@
+# Core RAG engine + Gmail loader (pulls in langchain, chromadb, google auth libs)
+embedchain[gmail]
+
+# Local embeddings (no API key, runs on the VM). embedchain's huggingface
+# embedder uses this under the hood.
+sentence-transformers
+
+# Loads OPENROUTER_API_KEY etc. from .env so cron jobs get them too.
+python-dotenv
